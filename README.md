@@ -4,3 +4,4 @@
 
 - **2026-11-25 분리**: 원래 `enorangekid/Project_H`의 `docs/eldor` 폴더였고, 기록을 그대로 가져와 이 저장소로 분리했습니다. 로컬 위치는 그대로 `Project_H\docsldor`이며, 이 폴더 자체가 game_eldor 저장소입니다.
 - **커밋**: 엘도르 문서 변경은 이 폴더 안에서 커밋·푸시합니다.
+- **도구**: `tools/eldor` — 스크립트 분기 검사기·분기도 (`node tools/eldor/check.js`, `node tools/eldor/map.js --open`). 설명은 `tools/eldor/README.md`.

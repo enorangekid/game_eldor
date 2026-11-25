@@ -12,7 +12,7 @@ v0.2 / 2026-11-24 — 9~10장(모래바람의 마을, 오렐, 사막, 성채 도
 **표시 이름 [2026-11-25 반영]:** 스크립트 본문은 **'애쉬'**(재의 서약 동안 불리는 이름). 진짜 이름 '베르트랑'은 옛 이름 금지 아래 **엘린이 단둘일 때만** 부른다(E1-06 "오랜만이야, 베르트랑."). 부록·메모·기획서·설정 문서는 계속 '베르트랑'으로 쓴다.
 
 **프롤로그에서 넘어오는 변수:** `rock_trust` · `promise_made` · `wound` · `rock_wound` · `mika_cloth` · `b13_clue` · `rock_lockpick` · `shadow_evidence` · `dragon_mark` · `opened_door` · `barkas_whisper` · `report`
-**1막 새 변수 기본값:** `court_suspicion` 0 · `elin_trust` 0 · `lethe_impression` 0
+**1막 새 변수 기본값:** `court_suspicion` 0 · `elin_trust` 0 · `lethe_impression` 0 · `knows_temple` false · `b13_south` false · `clue_back_panel` false · `clue_insider` false · `order_temple` false · `clue_raider_horses` false · `split` none · `clue_raider_hired` false · `clue_went_straight` false · `clue_raider_south` false · `deduce_raiders` false · `arrive_early` false
 
 ---
 
