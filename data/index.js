@@ -23,17 +23,17 @@ window.PROJECT_H_INDEX=Object.assign({
   "voiceCheckedCount": 0,
   "koreanCount": 1868,
   "recordingScriptCount": 0,
-  "builtAt": "2026-11-26T09:35:36.665Z",
+  "builtAt": "2026-11-26T09:39:04.398Z",
   "generator": "tools/md_script.js — 원본은 md, 작업실에서 대사를 고치지 말 것"
  },
  "speakers": [
   {
    "name": "나레이션",
-   "count": 735
+   "count": 738
   },
   {
    "name": "연출",
-   "count": 372
+   "count": 370
   },
   {
    "name": "애쉬",
@@ -45,11 +45,11 @@ window.PROJECT_H_INDEX=Object.assign({
   },
   {
    "name": "엘린",
-   "count": 65
+   "count": 64
   },
   {
    "name": "레테",
-   "count": 58
+   "count": 57
   },
   {
    "name": "조사",
@@ -65,7 +65,7 @@ window.PROJECT_H_INDEX=Object.assign({
   },
   {
    "name": "오쿨루스",
-   "count": 21
+   "count": 22
   },
   {
    "name": "브람",
