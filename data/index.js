@@ -23,7 +23,7 @@ window.PROJECT_H_INDEX=Object.assign({
   "voiceCheckedCount": 0,
   "koreanCount": 1868,
   "recordingScriptCount": 0,
-  "builtAt": "2026-11-26T09:12:43.392Z",
+  "builtAt": "2026-11-26T09:35:36.665Z",
   "generator": "tools/md_script.js — 원본은 md, 작업실에서 대사를 고치지 말 것"
  },
  "speakers": [
@@ -33,7 +33,7 @@ window.PROJECT_H_INDEX=Object.assign({
   },
   {
    "name": "연출",
-   "count": 371
+   "count": 372
   },
   {
    "name": "애쉬",
@@ -49,7 +49,7 @@ window.PROJECT_H_INDEX=Object.assign({
   },
   {
    "name": "레테",
-   "count": 59
+   "count": 58
   },
   {
    "name": "조사",
