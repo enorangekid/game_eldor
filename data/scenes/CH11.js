@@ -194,5 +194,9 @@ window.PROJECT_H_SCENES["CH11"]=[
 {"rowNumber":192,"id":"CH11#192","kind":"text","speaker":"레테","english":"","korean":"이 사람, 제도로 데려가야 해요. 혼자 아는 게 너무 많아요.","recordingScript":"","prompt":"","memo":"","voice":"","phaseId":"CH11-P4"},
 {"rowNumber":193,"id":"CH11#193","kind":"text","speaker":"애쉬","english":"","korean":"황명은 성채를 확인하라는 것이었다. 빛의 제단은 황명에 없다.","recordingScript":"","prompt":"","memo":"","voice":"","phaseId":"CH11-P4"},
 {"rowNumber":194,"id":"CH11#194","kind":"text","speaker":"오렐","english":"","korean":"창은 기다려 줍니다. 몇백 년을 기다렸는데요.","recordingScript":"","prompt":"","memo":"","voice":"","phaseId":"CH11-P4"},
-{"rowNumber":195,"id":"CH11#195","kind":"text","speaker":"나레이션","english":"","korean":"로크는 대답하지 않았다. 찢긴 쪽지를 접어 부적과 함께 품에 넣었다.","recordingScript":"","prompt":"","memo":"","voice":"","phaseId":"CH11-P4"}
+{"rowNumber":195,"id":"CH11#195","kind":"text","speaker":"연출","english":"","korean":"[if clue_b_list = true]","recordingScript":"","prompt":"","memo":"","voice":"","phaseId":"CH11-P4"},
+{"rowNumber":196,"id":"CH11#196","kind":"text","speaker":"나레이션","english":"","korean":"로크는 대답하지 않았다. 찢긴 쪽지를 접어 부적과 함께 품에 넣었다.","recordingScript":"","prompt":"","memo":"","voice":"","phaseId":"CH11-P4"},
+{"rowNumber":197,"id":"CH11#197","kind":"text","speaker":"연출","english":"","korean":"[else]","recordingScript":"","prompt":"","memo":"","voice":"","phaseId":"CH11-P4"},
+{"rowNumber":198,"id":"CH11#198","kind":"text","speaker":"나레이션","english":"","korean":"로크는 대답하지 않았다. 부적을 품에 넣었다.","recordingScript":"","prompt":"","memo":"","voice":"","phaseId":"CH11-P4"},
+{"rowNumber":199,"id":"CH11#199","kind":"text","speaker":"연출","english":"","korean":"[end]","recordingScript":"","prompt":"","memo":"","voice":"","phaseId":"CH11-P4"}
 ];
