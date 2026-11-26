@@ -12,7 +12,7 @@ v0.2 / 2026-11-24 — 9~10장(모래바람의 마을, 오렐, 사막, 성채 도
 **표시 이름 [2026-11-25 반영]:** 스크립트 본문은 **'애쉬'**(재의 서약 동안 불리는 이름). 진짜 이름 '베르트랑'은 옛 이름 금지 아래 **엘린이 단둘일 때만** 부른다(E1-06 "오랜만이야, 베르트랑."). 부록·메모·기획서·설정 문서는 계속 '베르트랑'으로 쓴다.
 
 **프롤로그에서 넘어오는 변수:** `rock_trust` · `promise_made` · `wound` · `rock_wound` · `mika_cloth` · `b13_clue` · `rock_lockpick` · `shadow_evidence` · `dragon_mark` · `opened_door` · `barkas_whisper` · `report`
-**1막 새 변수 기본값:** `court_suspicion` 0 · `elin_trust` 0 · `lethe_impression` 0 · `knows_temple` false · `b13_south` false · `clue_back_panel` false · `clue_insider` false · `order_temple` false · `clue_raider_horses` false · `split` none · `clue_raider_hired` false · `clue_went_straight` false · `clue_raider_south` false · `deduce_raiders` false · `arrive_early` false · `told_coin` false
+**1막 새 변수 기본값:** `court_suspicion` 0 · `elin_trust` 0 · `lethe_impression` 0 · `knows_temple` false · `b13_south` false · `clue_back_panel` false · `clue_insider` false · `order_temple` false · `clue_raider_horses` false · `split` none · `clue_raider_hired` false · `clue_went_straight` false · `clue_raider_south` false · `deduce_raiders` false · `arrive_early` false · `told_coin` false · `talk_rock` 0 · `fortress_route` none · `clue_sun_room` false · `clue_oculus_mentor` false · `clue_blind_side` false · `clue_b_list` false · `boss_way` none · `oculus_captured` false · `knows_altar` false · `knows_b13_north` false · `clue_coin_court` false · `prison_knot` false · `prison_order` false
 
 ---
 
@@ -1596,7 +1596,7 @@ N: 레테는 수첩을 덮었다. 애쉬는 검은 유리 조각을 탁자 위�
 > (막 끝 연출 — 시점이 주인공을 떠난다. 디아블로식 막 끝 영상. 이름·칭호는 밝히지 않는다)
 
 (연출: 촛불 하나. 탁자 위에 세 개의 검은 선이 새겨진 나무판. 사내의 손만 보인다. 얼굴은 그림자 속)
-전령: 사막성채의 오쿨루스가… 황궁 감옥에서 죽었습니다.
+전령: 오쿨루스가… 황궁 감옥에서 죽었습니다.
 N: 손이 잠시 멈췄다.
 사내: …그렇군.
 사내: 아쉽게 되었어.
@@ -1868,7 +1868,28 @@ VO 애쉬: 남은 것은 검은 조각 하나와, 북쪽이라는 말.
 - 엘린 "듣는 사람은 늘 안 하던 거고" → "내가 늘 안 듣던 말이고." (누가 안 듣는지 헷갈리던 줄)
 - 그대로 둔 것: 아무도 장작을 넣지 않는 불, 오렐의 두 번째 술병과 "원하지 않았겠지만", 로크 `rock_trust` 갈래("…받아 올 수 있습니까. 당신이."), 검은 유리 조각을 탁자에 내려놓는 끝.
 - **[확인 필요] 부적은 누가 가지고 있나** — E1-05에서 애쉬가 부적을 내밀고 로크는 받지 않는다(애쉬가 맡는다). 그런데 E1-17·E1-24에서는 로크가 부적을 꺼내 든다. 중간에 넘겨주는 장면이 없다. 어디서 넘길지(예: E1-18 합류, E1-20 야영) 또는 E1-17·E1-24를 애쉬가 꺼내는 것으로 바꿀지 [작가].
-- **다음 작업: E1-28 세 줄을 그은 손.**
+- ~~**다음 작업: E1-28 세 줄을 그은 손.**~~ (아래)
+
+## E1-28 세 줄을 그은 손 다듬기 (2026-11-26)
+
+- 전령 "사막성채의 오쿨루스가…" → "오쿨루스가…" (사내는 오쿨루스가 누군지 안다. 전령이 설명할 까닭이 없다)
+- **그대로 둔 것 — 이미 일을 하고 있는 줄** (handoff '이든의 두 줄', '1막 끝 VO 마지막 줄')
+  - "…그렇군." / "아쉽게 되었어." — 지금은 냉정한 수장으로, 나중에는 '증인을 잃은 아쉬움'으로 읽힌다. 이 장면에 덧붙이면 2막의 패('이든의 배신에 다른 이유가 있었다')를 미리 연다. 그래서 전령이 '자결'이라고 전하는 줄도 넣지 않았다(손이 멈추는 것만으로 충분).
+  - "그래. 그 녀석이라면… 잘 지니고 있겠지." — 이 장면의 힌트 하나(베르트랑을 잘 아는 사람).
+  - "눈의 조각" — 유리 조각을 눈에 대든 이마에 대든 맞는 이름이라, E1-23의 [확인 필요]와 부딪히지 않는다.
+  - VO 세 줄 — "돌아온 것은 셋 → 하나는 죽었다 → 남은 것은 둘". 마지막 줄이 첫 줄을 되받는 모양이라 일부러 반복을 둔다. 옥지기(이든을 죽일 손)는 2막부터 — 여기 넣지 않는다.
+
+## 1막 장면 다듬기 끝 — 남은 결정 (2026-11-26)
+
+E1-01~E1-28 장면 단위 다듬기를 모두 마쳤다. 아래는 작가가 정해야 아직 반영할 수 있는 것.
+
+1. **[확인 필요] 유리 조각의 자리** — 세계관은 눈, 대본은 이마(E1-23·24·26). 위 'E1-23' 메모.
+2. **[확인 필요] 부적은 누가 가지고 있나** — E1-05는 애쉬, E1-17·E1-24는 로크. 위 'E1-27' 메모.
+3. **[제안, 미반영] 보스전 키우기** — 결정적 선택 하나 → 4~6차례 주고받기. 위 'E1-23' 메모.
+4. **[제안, 미반영] 심문 형식** — 단서 고르기 → 진술 읽기. 위 'E1-24' 메모.
+5. **[작가] 미카 설정** — 왜 그 혈통이 열쇠인가, 열셋이 특별한 이유, 부적을 단 사람.
+6. ~~기본값 없는 변수 13개~~ — 머리말에 넣었다(`talk_rock` 0, `fortress_route`·`boss_way` none, 나머지 false).
+7. **2막 첫 장면** — "레테의 수첩 (음성 문서 낭독)" [미정].
 
 ## 대사 거르기 — E1-01~E1-08B (2026-11-26, 작가 원칙: "대사 한 줄 한 줄에 흥미, 텐션용 캐릭터·사건 없이")
 

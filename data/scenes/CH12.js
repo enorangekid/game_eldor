@@ -92,7 +92,7 @@ window.PROJECT_H_SCENES["CH12"]=[
 {"rowNumber":90,"id":"CH12#90","kind":"text","speaker":"나레이션","english":"","korean":"레테는 수첩을 덮었다. 애쉬는 검은 유리 조각을 탁자 위에 내려놓고, 불이 사그라드는 것을 보았다.","recordingScript":"","prompt":"","memo":"","voice":"","phaseId":"CH12-P3"},
 {"rowNumber":91,"id":"CH12#91","kind":"text","speaker":"연출","english":"","korean":"연출: 망루 창밖 — 성문 위 황금 사자. 불이 꺼진다","recordingScript":"","prompt":"","memo":"","voice":"","phaseId":"CH12-P3"},
 {"rowNumber":92,"id":"CH12#92","kind":"text","speaker":"연출","english":"","korean":"연출: 촛불 하나. 탁자 위에 세 개의 검은 선이 새겨진 나무판. 사내의 손만 보인다. 얼굴은 그림자 속","recordingScript":"","prompt":"","memo":"","voice":"","phaseId":"CH12-P4"},
-{"rowNumber":93,"id":"CH12#93","kind":"text","speaker":"전령","english":"","korean":"사막성채의 오쿨루스가… 황궁 감옥에서 죽었습니다.","recordingScript":"","prompt":"","memo":"","voice":"","phaseId":"CH12-P4"},
+{"rowNumber":93,"id":"CH12#93","kind":"text","speaker":"전령","english":"","korean":"오쿨루스가… 황궁 감옥에서 죽었습니다.","recordingScript":"","prompt":"","memo":"","voice":"","phaseId":"CH12-P4"},
 {"rowNumber":94,"id":"CH12#94","kind":"text","speaker":"나레이션","english":"","korean":"손이 잠시 멈췄다.","recordingScript":"","prompt":"","memo":"","voice":"","phaseId":"CH12-P4"},
 {"rowNumber":95,"id":"CH12#95","kind":"text","speaker":"사내","english":"","korean":"…그렇군.","recordingScript":"","prompt":"","memo":"","voice":"","phaseId":"CH12-P4"},
 {"rowNumber":96,"id":"CH12#96","kind":"text","speaker":"사내","english":"","korean":"아쉽게 되었어.","recordingScript":"","prompt":"","memo":"","voice":"","phaseId":"CH12-P4"},
