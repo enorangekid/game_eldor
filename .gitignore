@@ -1,3 +1,9 @@
 
 # 엘도르 분기도 (node tools/eldor/map.js 로 생성)
 tools/eldor/out/
+
+# 음성·CG는 작업 PC에만 (이미지는 C:\Games\EldorChronicles\novelai)
+voice/
+audio/
+cg/
+*.tmp

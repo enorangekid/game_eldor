@@ -227,8 +227,8 @@ function parseScript(text, file) {
 
 // 기본 대상: 막 순서대로. 새 막 스크립트가 생기면 여기에 추가한다.
 const DEFAULT_FILES = [
-  'eldor_prologue_script.md',
-  'eldor_act1_script.md',
+  'docs/eldor_prologue_script.md',
+  'docs/eldor_act1_script.md',
 ];
 
 function repoRoot() {
