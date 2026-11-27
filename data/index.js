@@ -23,17 +23,17 @@ window.PROJECT_H_INDEX=Object.assign({
   "voiceCheckedCount": 0,
   "koreanCount": 2015,
   "recordingScriptCount": 0,
-  "builtAt": "2026-11-27T04:16:36.609Z",
+  "builtAt": "2026-11-27T04:21:37.617Z",
   "generator": "tools/md_script.js — 원본은 md, 작업실에서 대사를 고치지 말 것"
  },
  "speakers": [
   {
    "name": "나레이션",
-   "count": 742
+   "count": 739
   },
   {
    "name": "연출",
-   "count": 465
+   "count": 468
   },
   {
    "name": "애쉬",
