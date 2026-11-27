@@ -23,7 +23,7 @@ window.PROJECT_H_INDEX=Object.assign({
   "voiceCheckedCount": 0,
   "koreanCount": 2015,
   "recordingScriptCount": 0,
-  "builtAt": "2026-11-27T04:11:06.327Z",
+  "builtAt": "2026-11-27T04:16:36.609Z",
   "generator": "tools/md_script.js — 원본은 md, 작업실에서 대사를 고치지 말 것"
  },
  "speakers": [
